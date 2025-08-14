@@ -1,3 +1,17 @@
+import os
+import time
+
+
+def barra_progreso():
+    ancho = 20
+    for i in range(ancho + 1):
+        porcentaje = int(i / ancho * 100)
+        barra = "#" * i + "-" * (ancho - i)
+        os.system('cls')
+        print(f"{barra}|{porcentaje}%")
+        time.sleep(0.1)
+
+
 def verificar_edad():
     while True:
         print("\nVERIFICAR EDAD: ")
@@ -22,6 +36,7 @@ def verificar_edad():
                 print("Opción no válida, regresando al menú principal")
         except ValueError:
             print("Dato ingresado no válido")
+
 
 def promedio():
     while True:
@@ -48,11 +63,13 @@ def promedio():
         except ValueError:
             print("Dato ingresado no válido")
 
+
 def factorial(numero):
     if numero == 1:
         return 1
     else:
         return numero * factorial(numero - 1)
+
 
 def ordenar(numero):
     if len(numero) <= 1:
@@ -61,6 +78,7 @@ def ordenar(numero):
     menores = [x for x in numero[1:] if x < pivote]
     mayores = [x for x in numero[1:] if x > pivote]
     return ordenar(menores) + pivote + ordenar(mayores)
+
 
 opcion = 0
 while opcion != 5:
@@ -74,6 +92,7 @@ while opcion != 5:
         opcion = int(input("\nSeleccione una opción: "))
         if opcion != 5:
             print(f"\nSe esta dirigiondo a la opción {opcion}")
+            barra_progreso()
         match opcion:
             case 1:
                 verificar_edad()
