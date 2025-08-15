@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fed05644-dfc6-4555-9026-eb8bc4e3e325" name="Changes" comment="Agregar demás opciones">
-      <change beforePath="$PROJECT_DIR$/.idea/Activiad 15.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Activiad 15.iml" afterDir="false" />
+    <list default="true" id="fed05644-dfc6-4555-9026-eb8bc4e3e325" name="Changes" comment="Agregar barra de progreso">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Actividad_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Actividad_15.py" afterDir="false" />
     </list>
@@ -76,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754932458025</updated>
       <workItem from="1754932459453" duration="8323000" />
-      <workItem from="1755100904631" duration="1567000" />
+      <workItem from="1755100904631" duration="2756000" />
     </task>
     <task id="LOCAL-00001" summary="Menú y opción salir">
       <option name="closed" value="true" />
@@ -94,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755060987840</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Agregar barra de progreso">
+      <option name="closed" value="true" />
+      <created>1755147957655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755147957660</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +121,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Menú y opción salir" />
     <MESSAGE value="Agregar demás opciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar demás opciones" />
+    <MESSAGE value="Agregar barra de progreso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar barra de progreso" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Activiad_15$Actividad_15.coverage" NAME="Actividad_15 Coverage Results" MODIFIED="1755056063238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

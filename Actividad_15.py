@@ -162,6 +162,8 @@ while opcion != 5:
                     opcion = 5
                 elif opcion == 2:
                     print("Regresando al menú...")
+        if opcion != 5:
+            barra_progreso()
 
     except ValueError:
         print("Dato ingresado no válido\n")
